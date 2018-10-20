@@ -2,8 +2,8 @@ import app
 
 # Test Step 1:
 
-test_board = ['#','X','O','X','O','X','O','X','O','X']
-display_board(test_board)
+test_board1 = ['#','X','O','X','O','X','O','X','O','X']
+display_board(test_board1)
 
 
 # Test Step 2:
@@ -12,6 +12,8 @@ print("Player1 :"+player1,"Player 2 :"+player2)
 
 # Test Step 3 : 
 # I will put first character name of friends on any position in board 
+
+test_board = ['#','X','O','X','O','X','O','X','O','X']
 place_marker(test_board,'T',8)
 place_marker(test_board,'H',7)
 place_marker(test_board,'A',5)
@@ -22,4 +24,4 @@ display_board(test_board)
 
 
 # Test Step 4 :
-print(win_check(test_board,'O'))
+print(win_check(test_board1,'O'))
